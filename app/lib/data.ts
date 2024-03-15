@@ -19,7 +19,7 @@ export async function fetchRevenue() {
 
   try {
     
-    // simulating a slow data fetch request. "Your application is only as fast as your slowest data fetch"
+    // simulating a slow data fetch request. "The application is only as fast as your slowest data fetch"
     // console.log('Fetching revenue data...');
     // await new Promise((resolve) => setTimeout(resolve, 3000));
 
