@@ -1,3 +1,15 @@
+import { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: {
+    template: '%s | Acme Dashboard',
+    default: 'Acme Dashboard',
+  },
+  description: 'Streamline invoice management with our intuitive admin dashboard',
+  metadataBase: new URL('https://admin-dashboard-kohl-seven.vercel.app/'),
+};
+
+
 import '@/app/ui/global.css';
 import { inter } from '@/app/ui/fonts';
  
